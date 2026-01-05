@@ -1,0 +1,99 @@
+[33mcommit 13980ffad2e1b96a586785f16b5a405662a37200[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mamin[m[33m, [m[1;32mmaster[m[33m)[m
+Author: bony <mdbonyamin2002@gmail.com>
+Date:   Mon Jan 5 00:04:11 2026 +0600
+
+    added second.py
+
+[1mdiff --git a/second.py b/second.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..511d34e[m
+[1m--- /dev/null[m
+[1m+++ b/second.py[m
+[36m@@ -0,0 +1,29 @@[m
+[32m+[m[32mrain = False[m
+[32m+[m[32mif rain == True:[m
+[32m+[m[32m    print("Versity jabo nah") # Gap ta k indentation bola hoy eita maintain korte hobe must[m
+[32m+[m[32melse:[m
+[32m+[m[32m    print("Versity jabo")[m
+[32m+[m[32mprint() # only new ekta line print kore[m
+[32m+[m[32mage = 23[m
+[32m+[m[32mif age >= 18:[m
+[32m+[m[32m    print("Driving License pabo")[m
+[32m+[m[32melse:[m
+[32m+[m[32m    print("Driving Licencense pabo nah")[m
+[32m+[m
+[32m+[m
+[32m+[m[32m# Logical Operator[m
+[32m+[m[32mprint(10-4 == 6 and 10+5 == 15)  # True return korbe(2 tai True hobe)[m
+[32m+[m[32mprint(10-4 == 6 or 10+3 == 15)  # True return korbe (jekono 1 ta True hole)[m
+[32m+[m[32mprint(not (10+3 != 13))  # Ture return korbe[m[41m [m
+[32m+[m
+[32m+[m[32mmarks = 85[m
+[32m+[m[32mif marks>=90 and marks<=100:[m
+[32m+[m[32m    print("A+")[m
+[32m+[m[32melif marks>=80 and marks<=90:[m
+[32m+[m[32m    print("A")[m
+[32m+[m[32melif marks>=70 and marks<=80:[m
+[32m+[m[32m    print("A-")[m
+[32m+[m[32melif marks>=60 and marks<=70:[m
+[32m+[m[32m    print("B")[m
+[32m+[m[32melse:[m
+[32m+[m[32m    print("Fail")[m[41m   [m
+\ No newline at end of file[m
+
+[33mcommit 5e2eadd2625e2fad6da99467b592214ab305bdc2[m
+Author: bony <mdbonyamin2002@gmail.com>
+Date:   Sun Jan 4 00:12:19 2026 +0600
+
+    1st commit - Added first.py
+
+[1mdiff --git a/first.py b/first.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2bd8ca9[m
+[1m--- /dev/null[m
+[1m+++ b/first.py[m
+[36m@@ -0,0 +1,44 @@[m
+[32m+[m
+[32m+[m[32mprint("Bony Amin")[m
+[32m+[m[32mhello = "Hello "[m
+[32m+[m[32mmy_name = "Bony"[m
+[32m+[m[32mbazar = ["piyaj","alu",'hello',2,1.34] #bazar ekta list type variable[m
+[32m+[m[32mprint(bazar)[m
+[32m+[m[32m_ = 10 # variable name start with letter and underscore character[m
+[32m+[m[32mprint(_)[m
+[32m+[m[32mprint(hello + my_name) # string 2 tar sum[m
+[32m+[m[32mname = input("Enter your name: ") #space input ney nah[m
+[32m+[m[32m# input function always sting format a data nibe[m
+[32m+[m[32mprint("My name's: ",name) # print function autometic new line print korse[m
+[32m+[m[32m# multi line comment er jonno ''' '''[m
+[32m+[m[32m# shortcut for single line comment ctrl + /[m
+[32m+[m[32m'''[m[41m [m
+[32m+[m[32mhello[m
+[32m+[m[32m'''[m
+[32m+[m[32m# Python Arithmetic Operator +,-,/,*,%[m
+[32m+[m[32m# ** Exponentiation[m
+[32m+[m[32m# // Floor division[m
+[32m+[m[32ma = 15[m
+[32m+[m[32mb = 2[m
+[32m+[m[32mprint(a+b) # 17[m
+[32m+[m[32mprint(a-b) # 13[m
+[32m+[m[32mprint(a*b) # 30[m
+[32m+[m[32mprint(a/b) # 7.5 float value dibe[m
+[32m+[m[32mprint(a//b) # 7 integer value dibe[m
+[32m+[m[32mprint(2**3) # 2 ^ 3 = 8[m[41m  [m
+[32m+[m[32mprint(a%b) # 1 modulus value dibe[m
+[32m+[m
+[32m+[m[32mprint(3>5) # boolean value(True ou False) return korbe[m
+[32m+[m
+[32m+[m[32m# Type Casting[m
+[32m+[m[32mage1 = int(input("Enter your age: "))[m[41m [m
+[32m+[m[32m# input() always string input ney but ekhane variable age ekta inter tai amra type casting korsi[m
+[32m+[m[32mif age1 >= 18:[m
+[32m+[m[32m    print("You are adult")[m
+[32m+[m[32melse:[m
+[32m+[m[32m    print("You are child")[m
+[32m+[m
+[32m+[m[32mweight = float(input("Enter weight: "))[m
+[32m+[m[32mprint(type(weight)) # type print korbe eta --> <class 'float'>[m
+[32m+[m[32mprint(int(weight)) # integer value output dekhabe[m
+[32m+[m

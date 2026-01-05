@@ -1,0 +1,42 @@
+[33mcommit 13980ffad2e1b96a586785f16b5a405662a37200[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mamin[m[33m, [m[1;32mmaster[m[33m)[m
+Author: bony <mdbonyamin2002@gmail.com>
+Date:   Mon Jan 5 00:04:11 2026 +0600
+
+    added second.py
+
+[1mdiff --git a/second.py b/second.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..511d34e[m
+[1m--- /dev/null[m
+[1m+++ b/second.py[m
+[36m@@ -0,0 +1,29 @@[m
+[32m+[m[32mrain = False[m
+[32m+[m[32mif rain == True:[m
+[32m+[m[32m    print("Versity jabo nah") # Gap ta k indentation bola hoy eita maintain korte hobe must[m
+[32m+[m[32melse:[m
+[32m+[m[32m    print("Versity jabo")[m
+[32m+[m[32mprint() # only new ekta line print kore[m
+[32m+[m[32mage = 23[m
+[32m+[m[32mif age >= 18:[m
+[32m+[m[32m    print("Driving License pabo")[m
+[32m+[m[32melse:[m
+[32m+[m[32m    print("Driving Licencense pabo nah")[m
+[32m+[m
+[32m+[m
+[32m+[m[32m# Logical Operator[m
+[32m+[m[32mprint(10-4 == 6 and 10+5 == 15)  # True return korbe(2 tai True hobe)[m
+[32m+[m[32mprint(10-4 == 6 or 10+3 == 15)  # True return korbe (jekono 1 ta True hole)[m
+[32m+[m[32mprint(not (10+3 != 13))  # Ture return korbe[m[41m [m
+[32m+[m
+[32m+[m[32mmarks = 85[m
+[32m+[m[32mif marks>=90 and marks<=100:[m
+[32m+[m[32m    print("A+")[m
+[32m+[m[32melif marks>=80 and marks<=90:[m
+[32m+[m[32m    print("A")[m
+[32m+[m[32melif marks>=70 and marks<=80:[m
+[32m+[m[32m    print("A-")[m
+[32m+[m[32melif marks>=60 and marks<=70:[m
+[32m+[m[32m    print("B")[m
+[32m+[m[32melse:[m
+[32m+[m[32m    print("Fail")[m[41m   [m
+\ No newline at end of file[m
